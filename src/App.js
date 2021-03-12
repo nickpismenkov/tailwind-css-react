@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="max-w-md mx-auto flex p-6 bg-gray-500 mt-10 rounded-lg shadow-xl">
+      <div className="ml-6 pt-1">
+        <h1 className="text-2xl text-gray-100 leading-tight">
+          Tailwind and Create React App
+        </h1>
+        <p className="text-base text-gray-100 leading-normal">
+          Building apps together
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
